@@ -1,10 +1,10 @@
-const acorn = require('acorn-base'); // npm:acorn
+const acorn = require('acorn'); // npm:acorn
 /*
- * acorn-class-fields
- * acorn-numeric-separator
- * acorn-private-methods
- * acorn-static-class-features
- * acorn-logical-assignment
+ * Numeric Separators via acorn-numeric-separator
+ * Class field declarations via acorn-class-fields
+ * Private methods and getter/setters for JavaScript classes via acorn-private-methods
+ * Static class features via acorn-static-class-features
+ * Logical assignments via acorn-logical-assignment
  */
 const acornStage3 = require('acorn-stage3');
 
